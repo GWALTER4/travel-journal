@@ -4,10 +4,12 @@ import { faEarthAmericas } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
 	return (
-		<>
-			<FontAwesomeIcon icon={faEarthAmericas} />
-			<h1>my travel journal.</h1>
-		</>
+		<header>
+			<div id="logo__icon">
+				<FontAwesomeIcon icon={faEarthAmericas} />
+			</div>
+			<h1 id="logo__text">my travel journal.</h1>
+		</header>
 	);
 };
 

@@ -7,7 +7,7 @@ const Locations = () => {
 		return <Location key={location.id} location={location} />;
 	});
 
-	return <main>{locations}</main>;
+	return <main className="locations">{locations}</main>;
 };
 
 export default Locations;
